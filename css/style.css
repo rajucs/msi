@@ -200,6 +200,39 @@
 	margin-top: 15px;
 	float: left;
 }
-.social-activity .video-bar{}
-.social-activity .news{}
-.social-activity .exhibition{}
+.social-activity .video-bar{width: 32%;height: 100%;float: left;margin-right: 1%;background-color: yellow;}
+.social-activity .news{width: 33%;height: 100%;float: left;margin-right: 1%;background-color: blue;}
+.social-activity .exhibition{width: 32%;height: 100%;background-color: green;float: left;}
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #999999;
+	float: left;
+}
+.footer .footer-left{
+	width: 70%;
+	height: 100%;
+	/*background-color: blue;*/
+	float: left;
+}
+.footer .footer-right{
+	width: 30%;
+	height: 100%;
+	/*background-color: green;*/
+	float: left;
+	padding: 20px;
+}
+
+.footer .footer-right a{
+	float: left;
+	/*border-right: 1px solid white;*/
+	display: block;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	margin-right: 2px;
+}
+.footer .footer-right p{
+	font-size: 20px;
+	color: white;
+}
